@@ -2,7 +2,7 @@ import random
 Lotto_number = 0
 My_Lotto_number = 1
 i = 0
-
+print("It's simple lotto program.")
 while (My_Lotto_number != Lotto_number):
         Lotto_number= random.randrange(1, 100000)
         My_Lotto_number = random.randrange(1, 100000)
